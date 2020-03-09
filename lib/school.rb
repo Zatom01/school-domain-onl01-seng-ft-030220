@@ -8,7 +8,7 @@ class School
     @roster=Hash.new
   end 
     
-  def add_student(student,grade.to_a)
+  def add_student(student,grade)
     @roster[student]=[]
     @roster[student]<<grade
   end
