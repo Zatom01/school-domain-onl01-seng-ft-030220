@@ -26,7 +26,7 @@ class School
   
   def sort
     
-    @roster.sort_by!(&:zip)
+    @roster.sort_by(&:zip)
   end
 
     
