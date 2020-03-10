@@ -26,7 +26,8 @@ class School
   
   def sort
     
-    @roster.sort_by(&:zip)
+    @roster.each do |grade,student|
+      student.sort
   end
 
     
