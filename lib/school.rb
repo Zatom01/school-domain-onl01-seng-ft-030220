@@ -26,7 +26,7 @@ class School
   
   def sort
     
-    @roster.sort_by { |element| element.value.first }
+    @roster.sort_by!(&:zip).reverse!
   end
 
     
