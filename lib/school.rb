@@ -26,10 +26,12 @@ class School
   
   def sort
     @roster.sort_by! do |s|
-    
+      s["value"]
     end
     
-    @roster
+  end
+    
+  @roster
       
   end
   
